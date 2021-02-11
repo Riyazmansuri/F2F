@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/background_profile_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/profile_image"
+        android:scaleType="centerCrop"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/name_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28dp"
+        android:maxLines="2"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/add_friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/name_profile"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/colorPrimary"
+        android:text="Add Friend"
+        android:padding="5dp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/decline_friend_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/add_friend"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/colorPrimary"
+        android:text="Cancel Friend Request"
+        android:visibility="gone"
+        android:padding="5dp"
+        >
+
+    </Button>
+
+</RelativeLayout>

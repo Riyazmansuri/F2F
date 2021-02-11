@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="20dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginLeft="25dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/card_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/image_contact"
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/profile_image"
+            android:layout_marginTop="15dp"
+            >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/name_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="user name"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/image_contact"
+            >
+        </TextView>
+
+        <Button
+            android:id="@+id/call_btn"
+            android:layout_width="90dp"
+            android:layout_height="43dp"
+            android:layout_below="@id/name_contact"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="65dp"
+            android:layout_marginBottom="14dp"
+            android:padding="5dp"
+            android:drawableTop="@drawable/video_call"
+            android:drawableTint="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            >
+
+        </Button>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

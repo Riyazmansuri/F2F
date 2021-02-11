@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "736301177644",
+    "firebase_url": "https://f2f-app-d96e2.firebaseio.com",
+    "project_id": "f2f-app-d96e2",
+    "storage_bucket": "f2f-app-d96e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736301177644:android:500ef72230fd5cb39eaa89",
+        "android_client_info": {
+          "package_name": "com.example.f2f"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736301177644-900t05vte28pedb0smg5gcarrsa8dt0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwTOpcrBzAPsxaDWM9vh7fiLevfezovJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736301177644-900t05vte28pedb0smg5gcarrsa8dt0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
